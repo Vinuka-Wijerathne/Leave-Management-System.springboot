@@ -1,0 +1,33 @@
+.leave-form {
+  width: 700px; /* Set the width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding-top: 80px;
+}
+
+/* Increase the height of the description box */
+.form-control.description {
+  height: 200px; /* Adjust the height as needed */
+  color: black; /* Set text color to black */
+}
+
+/* Reduce the size of the submit button */
+.btn-primary {
+  font-size: 14px; /* Set the font size */
+  padding: 6px 12px; /* Adjust the padding */
+}
+
+.form-control.small-input {
+  width: 700px;
+  align-items: center; /* Adjust the width as needed */
+  color: black; /* Set text color to black */
+}
+
+/* Set text color to white for labels */
+.leave-form label {
+  color: #ffffff; /* White text */
+}
+
+/* Set text color to black for form headers */
+.leave-form h2 {
+  color: #000000; /* Black text */
+}

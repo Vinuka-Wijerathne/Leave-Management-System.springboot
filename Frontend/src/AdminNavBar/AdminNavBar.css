@@ -1,0 +1,48 @@
+.navbar {
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed; /* Fixed position */
+    top: 0; /* Position at the top of the page */
+    width: 100%; /* Full width */
+   
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+    color: #fff; /* White text */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Add spacing between nav items */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem; /* Font size for nav links */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .logout-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .logout-btn:hover {
+    text-decoration: underline;
+  }
+  

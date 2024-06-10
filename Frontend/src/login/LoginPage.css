@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('image.jpg'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-position: center; /* Center the background image */
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   /* Set a semi-transparent white background color for the login section */
+}
+
+
+
+.company-logo {
+  width: 200px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin-bottom: 20px; /* Add some margin below the logo */
+}
+
+/* Update the .login-form styles */
+.login-form {
+  height: auto; /* Change height to auto to fit content */
+  max-width: 600px; /* Adjust maximum width as needed */
+  padding: 40px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: rgba(49, 46, 46, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Other styles remain unchanged */
+
+
+
+.form-group {
+  margin-bottom: 50px;
+  margin-top: 50px; /* Increase margin bottom */
+}
+
+
+.form-control1 {
+  margin-left: 30px;
+  width: 60%;
+  padding: 15px; /* Increase padding */
+  border: 1px solid #0c0a0a; /* Change border color */
+  border-radius: 5px;
+}
+.form-control2 {
+  width: 60%;
+  padding: 15px; /* Increase padding */
+  border: 1px solid #050505; /* Change border color */
+  border-radius: 5px;
+}
+.label2 {
+    margin-bottom: 20px;
+    margin-right: 10px;
+     /* Adjust margin as needed */
+  }
+  
+.btn-primary {
+  width: 40%;
+  padding: 12px; /* Reduce padding */
+  font-size: 16px; /* Reduce font size */
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.heading {
+  color: #ffffff;
+  padding: 15px; /* Increase padding */
+  text-align: center;
+  border-radius: 5px;
+}

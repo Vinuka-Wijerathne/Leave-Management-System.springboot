@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.input-field {
+  width: 100%; /* Set initial width */
+  width: 400px; /* Set maximum width */
+  margin-bottom: 15px; /* Add margin between input fields */
+}
+
+/* Add any additional styling as needed */
+.submit-button {
+  width: 50%; /* Set width of the button */
+  max-width: 200px;
+  margin-top: 10px; /* Set maximum width */
+}
+
+/* Style headings and labels */
+h2,
+label {
+  color: white; /* Set color to white */
+}

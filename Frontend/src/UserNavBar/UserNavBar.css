@@ -1,0 +1,32 @@
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-right: 20px; /* Add spacing between nav items */
+}
+
+.nav-item {
+  margin-right: 20px; /* Add spacing between nav items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem; /* Font size for nav links */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}

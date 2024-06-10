@@ -1,0 +1,30 @@
+/* EditUserForm.css */
+
+.edit-user-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    padding-top: 160px;
+  }
+  
+  .edit-user-form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-user-form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-user-form-control {
+    flex: 1; /* Make the input field flexible */
+    width: 100%; /* Ensure full width within the flex container */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .edit-user-btn-primary {
+    width: 100%;
+  }
+  

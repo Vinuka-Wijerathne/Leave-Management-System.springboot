@@ -1,0 +1,13 @@
+/* CSS for CopyrightBar component */
+.copyright-bar {
+    background-color: #333437;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+  }
+  
