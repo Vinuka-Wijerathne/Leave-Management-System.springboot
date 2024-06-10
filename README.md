@@ -1,0 +1,1 @@
+This application, created using a React frontend and a Spring Boot backend, includes an automated email function for most CRUD operations. This allows the HR manager to track leave applications and notify employees of approval or denial directly from the HR manager's dashboard.
